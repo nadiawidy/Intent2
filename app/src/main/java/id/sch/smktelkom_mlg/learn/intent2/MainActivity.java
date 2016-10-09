@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 String nama = data.getStringExtra(InputActivity.NAMA);
                 int thnLhr = data.getIntExtra(InputActivity.TAHUN_LAHIR, 0);
                 TextView tvBiodata = (TextView) findViewById(R.id.textViewBiodata);
-                tvBiodata.setText("Nama\t\t\t\t\t\t\t\t: " +nama
-                        +"\nTahun Kelahiran\t: "+thnLhr);
+                tvBiodata.setText("Nama\t\t\t\t\t\t\t\t: " + nama
+                        +"\nTahun Kelahiran\t: "+ thnLhr);
             }
         }
     }
